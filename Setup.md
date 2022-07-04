@@ -27,7 +27,8 @@ nvm install 12
 1. Installed nodejs 16 at first and met error when installing truffle. Change nodejs version to 12.
 
 ## Local blockchain: Ganache
-Ganache cli github: https://github.com/trufflesuite/ganache/tree/master
+- Ganache UI: https://trufflesuite.com/ganache/
+- Ganache cli github: https://github.com/trufflesuite/ganache/tree/master
 ```sh
 npm install ganache --location=global
 ganache
@@ -37,5 +38,8 @@ ganache
 ```sh
 npm install -g truffle
 ```
+## Ethereum wallet
+Metamask: metamask.io
 
-metamask.io
+## Visual studio code
+https://code.visualstudio.com/
