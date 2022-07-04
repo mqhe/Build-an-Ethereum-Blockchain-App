@@ -43,3 +43,4 @@ Metamask: metamask.io
 
 ## Visual studio code
 https://code.visualstudio.com/
+### Install solidity in extension so that vs can support solidity: https://codeforgeek.com/solidity-on-vs-code/
