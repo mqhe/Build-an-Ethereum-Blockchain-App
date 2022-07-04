@@ -23,4 +23,7 @@ development: {
      }
 ```
 ### Create a new smart contract in ./contract
-### Do we need contract name same with file name?
+
+#### Questions: 
+Do we need contract name same with file name?
+https://blog.csdn.net/beiniao520/article/details/79582983
