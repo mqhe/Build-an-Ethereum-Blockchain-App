@@ -23,7 +23,14 @@ development: {
      }
 ```
 ### Create a new smart contract in ./contract
-
+### Create deploy script in ./migration
+### Compile, deploy and invoke the contract
+```sh
+truffle compile
+truffle migrate
+truffle console
+truffle(development)> helloworld.deployed().then(function(instance) {return instance.gethelloMessage()})
+```
 ### Questions: 
 #### Do we need contract name same with file name?
 https://blog.csdn.net/beiniao520/article/details/79582983
