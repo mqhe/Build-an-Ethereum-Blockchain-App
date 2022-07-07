@@ -1,0 +1,3 @@
+[Solidity Tutorial: all about interfaces](https://medium.com/coinmonks/solidity-tutorial-all-about-interfaces-f547d2869499)
+
+All functions declared inside an interface are implicitly virtual. They are virtual by default, even if they do not include the virtual keyword in their definition inside the interface. Any function that overrides them (= the actual function implementation) do not need the override keyword. This specificity was introduced in Solidity 0.8.8, as the Solidity docs state: Starting from Solidity 0.8.8, the override keyword is not required when overriding an interface function…
