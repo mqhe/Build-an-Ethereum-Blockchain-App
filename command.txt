@@ -1,0 +1,25 @@
+//Check the ERC token
+let instance = await ERC20.deployed()
+let balance = await instance.balanceOf('address')
+balance.toNumber() // will get error if not using await
+
+
+//create javascript test 
+truffle create test SupplyChain
+//https://trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript/
+
+//truffle test is independent from truffle console environment. It will create a brand new deployment and then test on it.
+
+truffle test
+
+//connect truffle to infura
+//install git
+sudo apt-get update
+sudo apt-get install git-all
+npm cache verify
+
+//install hdwallet https://trufflesuite.com/guides/using-infura-custom-provider/
+npm install @truffle/hdwallet-provider
+
+
+
